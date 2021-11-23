@@ -2,6 +2,140 @@
   text-align: center;
 }
 
+.login {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+.loginBorder {
+  width: 240px;
+  border: 1px solid #676767;
+  border-radius: 40px;
+  background-color: #676767;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10em;
+  height: 220px;
+}
+.loginIcon {
+  color: #fff;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 4em;
+}
+
+.headerDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list {
+  text-align: initial;
+}
+.listHeader {
+  margin-left: 2.4em;
+}
+.listItem {
+  border: solid 1px #111111;
+  border-radius: 10px;
+  background-color: #111111;
+  margin-bottom: 10px;
+  text-decoration: unset;
+  color: #fff;
+  width: 80%;
+}
+
+.listFooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: right;
+}
+
+.detail {
+  text-align: initial;
+  margin: 70px;
+  font-weight: bold;
+}
+
+.addDragon {
+  text-align: initial;
+  display: grid;
+  margin-left: 2.4em;
+  width: 80%;
+}
+.btnAddDragon {
+  color: black;
+  background: orange;
+  max-width: 300px;
+  height: 2em;
+  border-radius: 10px;
+  margin: '10px'
+}
+.iptAddDragon {
+  border-radius: 10px;
+  height: 2em;
+  max-width: 700px;
+}
+
+.navBackBtn {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  color: white;
+  text-align: left;
+}
+
+.margin20px {
+  margin-left: 20px;
+}
+.margin20pxBottom {
+  margin-bottom: 20px;
+}
+.margin15pxtop {
+  margin-top: 15px;
+}
+.margin10pxend {
+  margin-right: 15px;
+}
+.fontSize {
+  font-size: 4em!important;
+}
+.fontSize14px {
+  font-size: 14px;
+}
+.width100px {
+  width: 100px;
+}
+.iconHeader {
+  font-size: 2.4rem;
+  margin-left: 0.6em;
+  margin-top: 0.5em;
+  color: #fff
+}
+.iconList {
+  margin-left: 0.6em;
+  color: #fff;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.colorCustom {
+  color:orange;
+}
+.borderOrange {
+  border-left: 10px solid orange;
+}
+
+.displayFlex {
+  display: flex;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
